@@ -1,0 +1,16 @@
+{
+    "name": "smartin/test_phpfilemerger",
+    "description": "Test the phpfilemerger library",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "smartinus44/phpfilemerger": "dev-master"
+    },
+    "scripts": {
+        "start": "php bin/index.php"
+    },
+    "autoload": {
+        "classmap": ["./vendor/smartinus44/phpfilemerger/"]
+    }
+}
